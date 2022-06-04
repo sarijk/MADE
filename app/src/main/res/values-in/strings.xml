@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAMU</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Pencarian</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="title_setting">Pengaturan</string>
+    <string name="language">Bahasa</string>
+    <string name="setting_button">Tombol Pengaturan</string>
+    <string name="image">Gambar</string>
+    <string name="name_cocktail">Nama Cocktail</string>
+    <string name="category_cocktail">Kategori</string>
+    <string name="something_wrong">Oops.. ada kesalahan.</string>
+    <string name="no_data">Data kosong.</string>
+    <string name="title_activity_detail_drink">DetailDrinkActivity</string>
+    <string name="back_button">Tombol Kembali</string>
+    <string name="favorite_button">Tombol Favorit</string>
+    <string name="cocktail_image">Gambar Cocktail</string>
+    <string name="how_to_make">Cara membuat</string>
+    <string name="instructions">Instruksi</string>
+</resources>

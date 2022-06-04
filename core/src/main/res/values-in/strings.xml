@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image">Gambar</string>
+    <string name="name_cocktail">Nama Cocktail</string>
+    <string name="category_cocktail">Kategori</string>
+</resources>

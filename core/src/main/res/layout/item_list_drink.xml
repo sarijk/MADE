@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/corner_radius"
+    app:cardElevation="@dimen/card_elevation"
+    android:layout_marginStart="@dimen/margin_edge"
+    android:layout_marginEnd="@dimen/margin_edge"
+    android:layout_marginTop="@dimen/margin_edge">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_item_image"
+            android:layout_width="@dimen/image_list_size"
+            android:layout_height="@dimen/image_list_size"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="@dimen/margin_edge"
+            android:layout_marginTop="@dimen/margin_edge"
+            android:layout_marginBottom="@dimen/margin_edge"
+            android:src="@drawable/icon_image"
+            android:contentDescription="@string/image"
+            android:layout_marginLeft="@dimen/margin_edge" />
+
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/margin_card_title"
+            android:layout_marginStart="@dimen/margin_edge"
+            android:text="@string/name_cocktail"
+            app:layout_constraintStart_toEndOf="@id/iv_item_image"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="@dimen/margin_edge" />
+
+        <TextView
+            android:id="@+id/tv_item_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_edge"
+            android:layout_marginTop="@dimen/margin_card_subtitle"
+            android:text="@string/category_cocktail"
+            app:layout_constraintStart_toEndOf="@id/iv_item_image"
+            app:layout_constraintTop_toBottomOf="@id/tv_item_title"
+            android:layout_marginLeft="@dimen/margin_edge" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

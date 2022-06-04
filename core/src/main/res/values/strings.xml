@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image">Image</string>
+    <string name="name_cocktail">Name Cocktail</string>
+    <string name="category_cocktail">Category</string>
+</resources>

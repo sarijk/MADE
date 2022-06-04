@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_medium">32dp</dimen>
+    <dimen name="icon_large">64dp</dimen>
+    <dimen name="margin_edge">18dp</dimen>
+    <dimen name="margin_top_button">20dp</dimen>
+    <dimen name="image_detail_size">150dp</dimen>
+    <dimen name="image_list_size">75dp</dimen>
+    <dimen name="margin_top_image">32dp</dimen>
+    <dimen name="text_title">18sp</dimen>
+    <dimen name="corner_radius">18dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="margin_card_title">24dp</dimen>
+    <dimen name="margin_card_subtitle">6dp</dimen>
+    <dimen name="height_card_setting">75dp</dimen>
+    <dimen name="margin_setting">225dp</dimen>
+</resources>

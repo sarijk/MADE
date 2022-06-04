@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_edge">18dp</dimen>
+    <dimen name="image_list_size">75dp</dimen>
+    <dimen name="corner_radius">18dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="margin_card_title">24dp</dimen>
+    <dimen name="margin_card_subtitle">6dp</dimen>
+</resources>

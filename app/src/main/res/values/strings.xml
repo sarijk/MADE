@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RAMU</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="setting_button">Setting Button</string>
+    <string name="image">Image</string>
+    <string name="name_cocktail">Name Cocktail</string>
+    <string name="category_cocktail">Category</string>
+    <string name="something_wrong">Oops.. something went wrong.</string>
+    <string name="no_data">Empty data.</string>
+    <string name="title_activity_detail_drink">DetailDrinkActivity</string>
+    <string name="back_button">Back Button</string>
+    <string name="favorite_button">Favorite Button</string>
+    <string name="cocktail_image">Cocktail Image</string>
+    <string name="how_to_make">How to make</string>
+    <string name="instructions">Instructions</string>
+</resources>
